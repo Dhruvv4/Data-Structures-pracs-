@@ -57,13 +57,19 @@ int main(void)
 	QUEUE q;
 	q.rear=-1;
 	q.front=-1;
+	// Insert operations
 	insert(&q,10);
 	insert(&q,20);
 	insert(&q,30);
 	insert(&q,40);
 	insert(&q,50);
+	// Display operation
 	display(q);
+
+	// Delete operation
 	delete(&q);
+
+	// Again displaying operation
 	display(q);
 	
 }
